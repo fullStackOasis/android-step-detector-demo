@@ -1,0 +1,5 @@
+This implements a super simple step counter.
+
+The service uses `Sensor.TYPE_STEP_DETECTOR`, not `Sensor.TYPE_STEP_COUNTER`. The former is simpler to deal with for something like a pedometer because it just sends a signal every time it detects a step. You don't have to worry about offsets when counting steps. With `Sensor.TYPE_STEP_COUNTER`, a running total of steps since boot time is returned.
+
+Communication between the Activity and the Service is done in a dead simple way using SharedPreferences. Quick and easy, but not necessarily performant.
