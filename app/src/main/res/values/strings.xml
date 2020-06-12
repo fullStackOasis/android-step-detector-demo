@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StepDetectorDemo</string>
+    <string name="stepping_message">You have taken %d steps</string>
+    <string name="empty"></string>
+    <string name="btn_instruction">Press button to reset step counter (restart from 0
+        steps)</string>
+    <string name="reset_step_counter">delete steps</string>
+    <string name="local_service_connected">connected to step detector</string>
+    <string name="local_service_disconnected">connected from step detector</string>
+</resources>
